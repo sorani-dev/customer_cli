@@ -1,0 +1,15 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "description": "Customer management CLI",
+  "main": "index.js",
+  "author": "Simon Cateau",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "mongoose": "^6.1.2"
+  }
+}
